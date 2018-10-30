@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.InfoFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="ARDA MOTOR"
+            android:id="@+id/judul"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judul"
+            android:layout_marginTop="12dp"
+            android:text=" Dengan perkembangan zaman maka berkembang pula kebutuhan manusia. Pada
+saat itu kebutuhsan manusia makin meningkat yaitu tidak hanya kebutuhan
+primer saja tapi kebutuhan lainnya, salah satunya adalah kebutuhan akan sarana
+transportasi kususnya transportasi darat, seperti mobil dan sepeda motor. Arda
+Motor Tepatnya pada tanggal 30 mei 2004 yang beralamatkan di Jl. H. Gofur
+Kp. Cijerah No. 4 RT 04/ RW 04 Bandung Barat. Arda Motor merupakan salah
+satu bentuk usaha yang bergerak dibidang jasa perawatan sepeda motor dan
+penjualan spare parts.
+Meskipun usia bengkel Arda Motor masih relatif muda yaitu 7 (tujuh)
+tahun, tetapi bengkel ini siap bersaing dengan usaha sejenis lainnya yang
+dilakukan dengan memberikan pelayanan sebaik-baiknya kepada konsumen agar
+konsumen merasa puas dan kembali lagi meggunakan jasa bengkel ini serta
+merekomendasikan kepada orang lain untuk menggunakan jasa pelayanan
+bengkel"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

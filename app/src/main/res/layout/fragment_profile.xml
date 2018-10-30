@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="56dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="match_parent">
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@android:color/black"
+           android:alpha="0.2"
+           />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/account"
+            android:layout_marginTop="16dp"
+            android:id="@+id/image1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADMIN"
+            android:id="@+id/nama"
+            android:layout_below="@id/image1"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:layout_margin="16dp"
+            android:textColor="@android:color/white"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Logout"
+            android:id="@+id/btnLogout"
+            android:layout_alignParentRight="true"
+            android:background="@color/color_start"
+            android:layout_margin="16dp"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+
+</FrameLayout>
