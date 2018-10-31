@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.znuri.zuhdannur.smsgateaway.Activity.ListOliActivity
+import com.znuri.zuhdannur.smsgateaway.Activity.ListServiceActivity
 
 import com.znuri.zuhdannur.smsgateaway.R
 import kotlinx.android.synthetic.main.fragment_produk.view.*
@@ -44,7 +45,9 @@ class ProdukFragment : Fragment() {
         view.produkOli.setOnClickListener {
             startActivity(Intent(context,ListOliActivity::class.java))
         }
-        view
+        view.serviceBerkala.setOnClickListener {
+            startActivity(Intent(context,ListServiceActivity::class.java))
+        }
         return view
     }
 

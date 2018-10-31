@@ -13,7 +13,7 @@
             android:orientation="horizontal"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:weightSum="3"
+            android:weightSum="2"
             android:id="@+id/images1"
             android:layout_centerVertical="true"
             android:layout_height="wrap_content">
@@ -31,13 +31,7 @@
                 android:src="@drawable/top1"
                 android:id="@+id/produkOli"
                 />
-            <ImageView
-                android:layout_weight="1"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:id="@+id/sperpartProduk"
-                android:src="@drawable/sperpart"
-                />
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,7 +40,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:weightSum="3"
+            android:weightSum="2"
             android:layout_height="wrap_content">
             <TextView
                 android:layout_width="0dp"
@@ -64,14 +58,7 @@
                 android:textSize="18sp"
                 android:gravity="center"
                 />
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Sperpart"
-                android:textSize="18sp"
-                android:gravity="center"
-                />
+
         </LinearLayout>
     </RelativeLayout>
 

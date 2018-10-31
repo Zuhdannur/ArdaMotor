@@ -31,7 +31,7 @@
             android:theme="@style/NoActionBar" />
         <activity
             android:name=".Activity.AddActivity"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".HomeActivity" />
         <activity
             android:name=".Activity.DetailActivity"
@@ -39,7 +39,10 @@
         <activity
             android:name=".Activity.AddSperpartActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".Activity.ListOliActivity"
+        <activity
+            android:name=".Activity.ListOliActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Activity.ListServiceActivity"
             android:parentActivityName=".MainActivity"
             ></activity>
     </application>
